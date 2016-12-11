@@ -41,13 +41,13 @@
 /*================== До 480px ==================*/
 @media (max-width: 480px) {
   .services-list-item {
-    width: 75px;
+    width: 71px;
   }
   .main-text h1 {
     font-size: 28px;
   }
   .section-header {
-    margin-top: 25px;
+    margin-top: 150px;
   }
   .section-header h2 {
     font-size: 22px;
