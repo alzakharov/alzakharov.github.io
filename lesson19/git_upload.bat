@@ -1,6 +1,6 @@
 git add .
 git status
 pause
-git commit -m "v6"
+git commit -m "v7"
 git push -u origin master
 pause
