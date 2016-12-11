@@ -408,15 +408,23 @@ footer {
     h2 {
       font-size: 22px;
     }
-  margin-top: 160px;
+  margin-top: 25px;
   }
   .process-box {
     margin-top: 75px;
   }
   .works-box {
-    height: 225px;
+    height: 100%;
     margin-top: 25px;
   }
+  .services {
+  &-list {
+      text-align: center;
+      &-item {
+      display: inline-block;
+    }
+  }
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -424,12 +432,20 @@ footer {
     margin-top: 75px;
   }
   .section-header {
-    margin-top:240px
+    margin-top:25px
   }
   .works-box {
     margin-top: 25px;
-    height: 680px;
+    height: 100%;
   }
+  .services {
+  &-list {
+      text-align: center;
+      &-item {
+      display: inline-block;
+    }
+  }
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -437,16 +453,31 @@ footer {
     margin-top: 75px;
   }
   .works-box {
-    height: 220px;
+    height: 100%;
   }
+  .services {
+  &-list {
+      text-align: center;
+      &-item {
+      display: inline-block;
+    }
+  }
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .works-box {
     height: 294px;
   }
+.services {
+  &-list {
+      text-align: center;
+      &-item {
+      display: inline-block;
+    }
+  }
 }
-
+}
 @media (min-width: 1200px) and (max-width: 1600px) {
   
 }
